@@ -60,7 +60,7 @@
 							<div class="form-group mt-4 text-center">
 								<input type="hidden" name="hid" value="<?php echo $myrecord['id'];?>">
 								<input type="submit" name="update" value="Update" class="btn btn-info">
-								<a href="index.php" class="btn btn-danger">Cancel</a>
+								<input type="submit" value="Cancel" href="index.php" class="btn btn-danger">
 							</div>
 						</form>
 
